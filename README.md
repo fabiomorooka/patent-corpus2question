@@ -26,11 +26,11 @@ Then, it was made some filters in order to extract the patents most related to t
 
 Moreover, it was extract only patents (and not pre-grant patents (PGPubs)) issued from 2010 to 2020
 
-Finally, the document_id as it was set in the original dataset is not complete to make the request on the google patents API, since it does not start with the "US" initials.
+Finally, the document_id as it was set in the original dataset is not complete to make the request on the [Python Google patents API](https://pypi.org/project/google-patent-scraper/), since it does not start with the "US" initials.
 
 ## The abstract
 
-Unfortunately, the original dataset does not have the abstract, an this information is important to the work, so, it was used a Python Library in order to make request to the Google Patent Engine and recover the patents abstract.
+Unfortunately, the original dataset does not have the abstract, an this information is important to the work, so, it was used a Python Library in order to make request to the [Google Patent Engine](https://patents.google.com/) and recover the patents abstract.
 
 ## Results over the uspto patent dataset
 
