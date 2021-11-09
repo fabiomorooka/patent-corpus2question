@@ -127,3 +127,9 @@ dmypy.json
 
 # Pyre type checker
 .pyre/
+
+# Dataset .csv files
+/dataset/extract_ai_dataset/ai_model_predictions.dta
+/dataset/get_abstracts/filtered_ai_documents.csv
+/dataset/get_abstracts/patent_dataset.csv
+
