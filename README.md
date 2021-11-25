@@ -1,10 +1,10 @@
 patent-corpus2question
 ===============
 
-This repository presents `patent-corpus2question`, an application of the original study of [corpus2question](https://github.com/unicamp-dl/corpus2question)
-
+This repository presents `patent-corpus2question`, an application of the original study of [corpus2question](https://github.com/unicamp-dl/corpus2question). But, instead of using the covid19 dataset, it was analyzed in a patent dataset.
 
 ## The method
+[![Open All Collab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/drive/16TbCtQYXyxyGNjII31RYVRFBlmdGNPZM?usp=sharing)
 
 Explained in the original repository project of the [corpus2question](https://github.com/unicamp-dl/corpus2question)
 
@@ -32,6 +32,16 @@ Finally, the document_id as it was set in the original dataset is not complete t
 
 Unfortunately, the original dataset does not have the abstract, an this information is important to the work, so, it was used a Python Library in order to make request to the [Google Patent Engine](https://patents.google.com/) and recover the patents abstract.
 
+With the scripts in this repository, it was extracted all abstracts from the filtered dataset mentioned above. The complete dataset can be dowloaded from: [Google Drive folder](https://drive.google.com/file/d/1y8Z692rkEjMCp2Wb8nwa-RryOv_HeGRS/view?usp=sharing). For this download, you must be logged in a Unicamp e-mail.
+
+This complete dataset was then prepared (before executing the other Google Colab shown above) by the Google Colab Notebook below.
+
+[![Open All Collab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/drive/16TbCtQYXyxyGNjII31RYVRFBlmdGNPZM?usp=sharing)
+
 ## Results over the uspto patent dataset
 
-In progress
+Our first results were some curves of topics of the AI field appeared in the patents abstracts.
+
+# Additional information
+
+Unfortunately, the project is not complete public, because you must be an Unicamp student or teacher. Moreover, you must have access to the Cloud Storage from the project in orther to have complete access to the files and configurations used in the Google Colab Notebooks, but from now it is possible to see the progression of the work.
