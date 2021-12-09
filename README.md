@@ -4,8 +4,6 @@ patent-corpus2question
 This repository presents `patent-corpus2question`, an application of the original study of [corpus2question](https://github.com/unicamp-dl/corpus2question). But, instead of using the covid19 dataset, it was analyzed in a patent dataset.
 
 ## The method
-[![Open All Collab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/drive/16TbCtQYXyxyGNjII31RYVRFBlmdGNPZM?usp=sharing)
-
 Explained in the original repository project of the [corpus2question](https://github.com/unicamp-dl/corpus2question)
 
 ## The dataset
@@ -40,7 +38,15 @@ This complete dataset was then prepared (before executing the other Google Colab
 
 ## Results over the uspto patent dataset
 
-Our first results were some curves of topics of the AI field appeared in the patents abstracts.
+Our first results were some curves of topics of the AI field appeared in the patents abstracts. The results are shown in the Google Colab notebook below
+
+[![Open All Collab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/drive/1wz1FNLUiDkdHrkmGJMUZjXDL0rBGxByC?usp=sharing)
+
+## Comparison with arxiv work
+
+The results obtained in the patent study was compared with the results obtained in the arxiv study, the comparison is shown in the Google Colab notebook below.
+
+[![Open All Collab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/drive/18qCN3Hj9gt4p3VV35tfraOH-mX36EVo8?usp=sharing)
 
 # Additional information
 
