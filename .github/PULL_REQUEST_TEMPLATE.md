@@ -39,4 +39,3 @@ Preencha o motivo da mudança.
 - [ ] Inclui testes que provam que minha funcionalidade ou correção funcionam
 - [ ] Novos e existentes testes de unidade passaram localmente com minhas mudanças
 - [ ] Atualizei o arquivo CHANGELOG.md com detalhes da nova versão
-- [ ] Atualizei o arquivo .csproj com a nova versão
